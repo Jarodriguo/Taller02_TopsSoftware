@@ -11,6 +11,8 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.use('/', pokeneaRoutes);
 
+console.log("Servidor iniciando con GitHub Actions")
+
 app.listen(PORT, () => {
     console.log(`Servidor corriendo en puerto ${PORT}`);
 })
